@@ -12,6 +12,7 @@ def hitung_nilai_akhir(tugas, uts, uas):
 while True:
     # Meminta input data mahasiswa
     nama = input("Masukkan nama mahasiswa: ")
+    nim = input("Masukkan NIM mahasiswa: ")
     tugas = float(input("Masukkan nilai tugas: "))
     uts = float(input("Masukkan nilai UTS: "))
     uas = float(input("Masukkan nilai UAS: "))
@@ -22,6 +23,7 @@ while True:
     # Menambahkan data ke dalam list
     data_mahasiswa.append({
         'Nama': nama,
+        'NIM' : nim,
         'Tugas': tugas,
         'UTS': uts,
         'UAS': uas,
@@ -35,8 +37,8 @@ while True:
 
 # Menampilkan daftar data mahasiswa
 print("\nDaftar Data Mahasiswa:")
-print("===================================")
-print("No | Nama Mahasiswa | Nilai Akhir")
-print("===================================")
+print("==========================================================================================")
+print("No | Nama Mahasiswa                  | NIM           | Tugas |  UTS  |  UAS  | Nilai Akhir")
+print("==========================================================================================")
 for i, mahasiswa in enumerate(data_mahasiswa, start=1):
-    print(f"{i}  | {mahasiswa['Nama']} | {mahasiswa['Nilai Akhir']:.2f}")
+    print(f"{i}  | {mahasiswa['Nama']}       | {mahasiswa['NIM']}     | {mahasiswa['Tugas']}  | {mahasiswa['UTS']}  | {mahasiswa['UAS']}  | {mahasiswa['Nilai Akhir']:.2f}")
