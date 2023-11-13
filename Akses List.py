@@ -1,5 +1,5 @@
 # Membuat list dengan 5 elemen
-my_list = [10, 20, 30, 40, 50]
+my_list = [22, 23, 24, 25, 26]
 
 # Mengakses dan menampilkan elemen ke-3
 elemen_ke_3 = my_list[2]

@@ -1,5 +1,5 @@
 # Membuat list dengan 5 elemen
-my_list = [10, 20, 30, 45, 55, 65]
+my_list = [22, 23, 24, 25, 26]
 
 # Ambil 2 bagian dari list pertama (A) dan jadikan list ke-2 (B)
 list_A = my_list[:2]
