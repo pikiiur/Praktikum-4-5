@@ -10,7 +10,7 @@ list dengan rincian sebagai berikut:
 4. Buat flowchart dan penjelasan programnya pada README.md.
 5. Commit dan Push repository ke Github
 
-```
+```python
 # Inisialisasi list untuk menyimpan data mahasiswa
 data_mahasiswa = []
 
